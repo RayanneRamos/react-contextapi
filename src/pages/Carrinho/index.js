@@ -6,11 +6,13 @@ import { useCarrinhoContext } from '../../common/contexts/Carrinho';
 import Produto from 'components/Produto';
 import { useHistory } from 'react-router-dom';
 import { PagamentoContext, usePagamentoContext } from 'common/contexts/Pagamento';
+import { UsuarioContext } from 'common/contexts/Usuario';
 
 function Carrinho() {
   
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const { carrinho, valorTotalCarrinho } = useCarrinhoContext();
+  const { saldo } = useContext(UsuarioContext);
   const history = useHistory();
   const { formaPagamento, tiposPagamento, setFormaPagamento, mudarFormaPagamento } = usePagamentoContext();
 
@@ -46,7 +48,7 @@ function Carrinho() {
           </div>
           <div>
             <h2> Saldo: </h2>
-            <span> R$ </span>
+            <span> R$ {saldo}</span>
           </div>
           <div>
             <h2> Saldo Total: </h2>
