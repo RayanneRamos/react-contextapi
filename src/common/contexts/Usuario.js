@@ -1,6 +1,7 @@
 import { createContext, useState } from 'react';
 
 export const UsuarioContext = createContext();
+UsuarioContext.displayName = "";
 
 export const UsuarioProvider = ({ children }) => {
   
