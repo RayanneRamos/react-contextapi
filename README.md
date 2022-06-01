@@ -12,7 +12,7 @@
 
 ## 💻 Projeto
 
-[ReactContextAPI] É um projeto que foi desenvolvido durante o curso React: Gerenciamento de estados globais com ContextAPI da [Alura](https://alura.com.br/). O curso conta com 6 módulos que variam de 6 a 9 aulas por módulo.
+[ReactContextAPI](https://react-contextapi-5fj639jaq-rayanneramos.vercel.app/) É um projeto que foi desenvolvido durante o curso React: Gerenciamento de estados globais com ContextAPI da [Alura](https://alura.com.br/). O curso conta com 6 módulos que variam de 6 a 9 aulas por módulo.
 
  - [x] Módulo 1
  - [x] Módulo 2
