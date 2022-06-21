@@ -59,6 +59,13 @@ Você pode visualizar o layout do projeto através:
 
  - [LayoutWeb](https://www.figma.com/file/Gz3kcOmACtesKuhpO7BDVM/react-contextapi?node-id=0%3A1) 
 
+## 🔥 Desafios
+  - [ ] Responsividade
+  - [ ] Testes
+  - [ ] Deploy
+  - [ ] Validação dos campos do formulário
+  - [ ] Adicionar mais produtos
+
 ## 📝 License
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
